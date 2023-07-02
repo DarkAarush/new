@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝑨𝒅𝒅 𝙋𝙧𝙖𝙮 𝙭 𝙢𝙪𝙨𝙞𝙘 ",
+                text="𝐀𝐝𝐝 𝐖𝐲𝐧𝐤 𝐌𝐮𝐬𝐢𝐜",
                 url=f"https://t.me/Wynk_Music_TetrisBot?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝑯𝒆𝒍𝒑",
+                text="𝐇𝐞𝐥𝐩",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔", callback_data="settings_helper"
+                text="𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,16 +30,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝑨𝒅𝒅 𝑾𝒚𝒏𝒌 𝙋𝙧𝙖𝙮 𝙭 𝙢𝙪𝙨𝙞𝙘 ",
+                text="𝐀𝐝𝐝 𝐖𝐲𝐧𝐤 𝐌𝐮𝐬𝐢𝐜",
                 url=f"https://t.me/Wynk_Music_TetrisBot?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝑯𝒆𝒍𝒑", callback_data="settings_back_helper"
+                text="𝐇𝐞𝐥𝐩", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="𝑾𝒚𝒏𝒌", url=f"https://wynk.in/music"
+                text="𝐖𝐲𝐧𝐤", url=f"https://wynk.in/music"
             )
         ],
      ]
